@@ -6,5 +6,14 @@ def main(s):
     Returns:
         int: answer
     """
-    return
-        
+    if s[0] == '*' :
+        return 0
+    elif s[1] == '*':
+        return 1
+    elif s[2] == '*':
+        return 2
+    elif s[3] == '*':
+        return 3
+    elif s[4] == '*':
+        return 4
+    return False
