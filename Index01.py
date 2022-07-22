@@ -4,6 +4,6 @@ def main(s):
     Args:
         s(str): parameter
     Returns:
-        str: answer
+        str: answer 
     """
     return s[0]
